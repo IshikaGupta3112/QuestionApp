@@ -121,7 +121,7 @@ function QuestionComp() {
             <p className="text-lg sm:text-xl font-medium">{Question[page].ques}</p>
             <div>
               {Question[page].opt.map((opti, index) => (
-                <div key={index} className="flex gap-1">
+                <div key={index} className="flex gap-1 items-center">
                   <input
                     type="radio"
                     id={opti}
